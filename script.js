@@ -2,8 +2,8 @@ var horario = new Date()
 var ano = horario.getFullYear()
 var indiceMes = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 var mes = horario.getMonth()
-// var horas = horario.getHours()
-horas = 5
+var horas = horario.getHours()
+
 var minutos = horario.getMinutes()
 var img = document.getElementById("imagem")
 document.getElementById("periodo").innerText = `Agora são exatamente: ${horas} horas e ${minutos} minutos`
